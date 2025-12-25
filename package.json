@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@types/chrome": "^0.0.294"
+  },
+  "dependencies": {
+    "@types/gapi": "^0.0.47",
+    "http-server": "^14.1.1"
+  }
+}

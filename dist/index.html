@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Drive</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <h2>Instagram Mutual Checker</h2>
+  <p style="position: absolute; top: 0; right: 5px">2025.</p>
+<br>
+  <p>Click on your both following and follower list, and keep scrolling until you reach the bottom!</p>
+<br>
+  <p>Instagram will sometimes not show everyone. (I don't know why) Keep reloading the page until it does!
+  </p>
+<br>
+ <p><span class="green">Green</span> = Mutual</p>
+ <p><span class="red">Red</span> = Not Following or Not Followed</p>
+<br>
+  <!-- <p id="error" class='red'></p> -->
+  <div id="main-container">
+
+    <div class="people-container">
+      <p id="followerstitle">Followers</p>
+      <ul id="followerlist"></ul>
+    </div>
+
+    <div class="people-container">
+      <p id="followingtitle">Following</p>
+      <ul id="followinglist"></ul>
+    </div>
+
+  </div>
+  <br>
+
+  <pre id="content" style="white-space: pre-wrap;"></pre>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>

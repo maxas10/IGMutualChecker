@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    color: white;
+}
+
+body {
+    min-width: 450px;
+    min-height: 300px;
+    background-color: black;
+}
+
+button {
+    background-color: midnightblue;
+}
+
+center {
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: midnightblue;
+    position: sticky !important;
+    z-index: 5;
+}
+
+#main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.people-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
